@@ -14,7 +14,7 @@ from sklearn.metrics import classification_report
 # Define the Streamlit app
 def app():
     
-    st.title('Things Recognizer')
+    st.title('Random Things Recognizer')
     st.subheader('by Bernadette E. Alabado BSCS 3-B AI')
     
     st.write('Dataset description:')
@@ -22,14 +22,11 @@ def app():
     st.write('Number of features: 64')
     text = """Feature representation: Binary values (1 or 0) representing the 8x8 pixels of an image.
         Target variable: A single categorical variable representing the class 
-        of the image (e.g., digit recognition, traffic sign classification).
+        of the image.
         Potential Applications:"""
     st.write(text)
-    st.write('Digit recognition: Identifying handwritten digits from 0-9.')
-    st.write('Traffic sign classification: Classifying different types of traffic signs.')
-    st.write('Character recognition: Recognizing characters from different alphabets.')
-    st.write("""Simple image classification: Classifying simple images into categories 
-             like animal/non-animal, vehicle/non-vehicle, etc.""")
+    st.write('Digit recognition: Recognizing random things from 0-3.')
+    st.write('Random Things classification: Classifying different types of tthings.')
 
     # display choice of classifier
     clf = BernoulliNB() 
