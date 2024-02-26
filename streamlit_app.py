@@ -14,8 +14,8 @@ from sklearn.metrics import classification_report
 # Define the Streamlit app
 def app():
     
-    st.title('Symbol Classification')
-    st.subheader('by Louie F. Cervantes M.Eng., WVSU College of ICT')
+    st.title('Things Recognizer')
+    st.subheader('by Bernadette E. Alabado BSCS 3-B AI')
     
     st.write('Dataset description:')
 
