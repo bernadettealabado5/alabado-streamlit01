@@ -43,7 +43,7 @@ def app():
         clf = BernoulliNB()
 
     if st.button('Start'):
-        df = pd.read_csv('Arendain_Smiley.csv', header=None)
+        df = pd.read_csv('things_dataset.csv', header=None)
         # st.dataframe(df, use_container_width=True)  
         
         # display the dataset
