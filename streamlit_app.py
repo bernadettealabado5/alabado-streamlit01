@@ -17,7 +17,7 @@ def app():
     st.title('Random Things Recognizer')
     st.subheader('by Bernadette E. Alabado BSCS 3-B AI')
     
-    st.write('Dataset description:')
+    st.write('Dataset description: This text describes a comprehensive set of four distinct elements, each symbolizing various facets of nature and human habitation. Specifically, it encompasses representations of the (0) sun, (1) flower, (2) cloud, and (3) house. These symbols are not only visually distinct but also hold profound symbolic significance, evoking themes of vitality, growth, atmosphere, and shelter, respectively. They collectively encapsulate a binary narrative, juxtaposing the natural world with human constructs.')
 
     st.write('Number of features: 64')
     text = """Feature representation: Binary values (1 or 0) representing the 8x8 pixels of an image.
@@ -26,7 +26,7 @@ def app():
         Potential Applications:"""
     st.write(text)
     st.write('Digit recognition: Recognizing random things from 0-3.')
-    st.write('Random Things classification: Classifying different types of tthings.')
+    st.write('Random Things classification: Classifying different types of things.')
 
     # display choice of classifier
     clf = BernoulliNB() 
